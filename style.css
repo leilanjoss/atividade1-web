@@ -96,6 +96,33 @@ p, ul {
     margin-top: 10px;
     line-height: 1.6;
 }
+#interesses p strong {
+    color: var(--color-primary-hover);
+}
+
+#educacao a {
+    text-decoration: none;
+}
+
+#educacao a:hover{
+    text-decoration: underline;
+}
+
+#disciplinas-cursadas ul {
+    list-style: none;
+    padding: 0;
+}
+
+#disciplinas-cursadas li {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+#disciplinas-cursadas h3 {
+    color: var(--color-primary);
+    margin-top: 10px;
+    margin-left: 5px;
+}
 
 .experiencia-section {
     margin-top: 20px; 
@@ -119,6 +146,18 @@ p, ul {
 
 .experiencia-item p {
     margin: 5px 0; 
+}
+#projetos h4 {
+    padding-top: 10px;
+    color: var(--color-primary);
+}
+
+#projetos h4 a{
+    color: var(--color-primary);
+}
+
+#projetos h4 a:hover{
+    color: var(--color-primary-hover);
 }
 
 #projetos ul {
