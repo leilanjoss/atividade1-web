@@ -183,6 +183,33 @@ p, ul {
     transition: color 0.3s;
 }
 
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--color-primary);
+    text-decoration: none;
+    border-radius: 5px; 
+    font-size: 16px;
+    border: 2px solid var(--color-primary); 
+    background-color: var(--color-white); 
+    transition: background-color 0.3s, color 0.3s; 
+    margin-bottom: 20px
+}
+
+.btn-voltar:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-color: var(--color-primary-hover); 
+}
+
+#dictionary ul{
+    list-style: none;
+}
+
+#dictionary ul strong{
+    color: var(--color-primary);
+}
+
 footer {
     background-color: var(--color-light-grey);
     padding: 20px; 
@@ -200,4 +227,15 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    main {
+        margin-left: 0;
+        width: 100%;
+    }
 }
